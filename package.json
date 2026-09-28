@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/meshdock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mesh config/dock key checks for twelve-factor services.",
+  "bin": {
+    "meshdock": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/meshdock.git"
+  },
+  "homepage": "https://theworker02.github.io/meshdock/",
+  "keywords": [
+    "mesh",
+    "dock",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
